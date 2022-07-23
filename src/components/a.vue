@@ -34,10 +34,13 @@
 </style>
 
 <script>
-const app = new Vue({
-  el: '#app',
-  data: {
-    isActive: 'pictures'
+export default {
+  name: 'app',
+  data () {
+    return {
+      
+      isActive: 'pictures'
+    }
   }
-})
+}
 </script>
